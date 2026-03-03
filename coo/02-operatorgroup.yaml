@@ -5,6 +5,4 @@ metadata:
   namespace: openshift-cluster-observability-operator
   annotations:
     argocd.argoproj.io/sync-wave: "0"
-spec:
-  targetNamespaces:
-    - openshift-cluster-observability-operator
+spec: {}
